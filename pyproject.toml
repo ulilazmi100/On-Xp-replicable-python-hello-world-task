@@ -1,0 +1,18 @@
+[project]
+name = "On-Xp-replicable-python-hello-world-task"
+version = "0.1.0"
+description = "Task in a On-Xp Python Web Development with Django Class"
+authors = [
+    {name = "Muhammad Ulil 'Azmi", email = "ulilazmi100@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
